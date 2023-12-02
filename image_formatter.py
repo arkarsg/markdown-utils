@@ -1,9 +1,7 @@
 from tempfile import mkstemp
 from shutil import move
-from os import remove, path
+from os import remove
 import re
-import sys
-import asyncio
 import aiofiles
 
 '''
