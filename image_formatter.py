@@ -21,7 +21,7 @@ options = {
     "-xxl":"150%",
 }
 
-expr = re.compile(r"!\[{2}[a-zA-Z0-9.-]+\s*\|\s*\-[a-z]+\s*\|\s*\-[a-z]+\]{2}")
+expr = re.compile(r"!\[{2}[a-zA-Z0-9\-\_.\s-]+\s*\|\s*-[a-z]+\s*\|\s*-[a-z]+\]{2}")
 
 
 async def replace(source_file_path):
